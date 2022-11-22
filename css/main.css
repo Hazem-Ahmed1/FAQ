@@ -1,0 +1,54 @@
+body{
+    background-image: linear-gradient(to bottom right , hsl(273, 75%, 66%),hsl(240, 73%, 65%)
+    );
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+*{
+    font-family: 'Kumbh Sans', sans-serif;
+
+}
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 4;
+    padding: 150px 40px ;
+    background-color: white;
+}
+.img-section{
+    position: relative;
+}
+.pattern{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.accordion-item{
+    border: none;
+}
+.accordion-item:hover .accordion-button{
+    color: hsl(14, 88%, 65%);
+}
+.accordion-button:focus{
+    font-weight: bold;
+    background-color: white;
+    border: none;
+    color: black;
+    outline: none;
+}
+h1{
+    padding: 15px ;
+    font-weight: bold;
+}
+
+
+@media (max-width:750px) {
+    .box{
+        top: 60%;
+    }
+    
+}
